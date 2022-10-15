@@ -1,5 +1,5 @@
 public class Vector {
-    private double x = 0, y = 0, z = 0;
+    public double x = 0, y = 0, z = 0;
 
     public Vector(double x, double y, double z) {
         this.x = x;
@@ -31,5 +31,16 @@ public class Vector {
 
     public Vector diff(Vector vector_2){
         return new Vector(this.x - vector_2.x, this.y - vector_2.y, this.z - vector_2.z);
+    }
+
+    public boolean equals(Vector vector_2){
+        if (vector_2 == this) return true;
+        if (vector_2 == null || getClass() != vector_2.getClass()) return false;
+        return (this.x == vector_2.x && this.y == vector_2.y && this.z == vector_2.z);
+    }
+
+    @Override
+    public int hashCode(){
+        return 0;
     }
 }
