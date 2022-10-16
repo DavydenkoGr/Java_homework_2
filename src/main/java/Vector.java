@@ -1,3 +1,4 @@
+import java.lang.Math;
 public class Vector {
     public double x = 0, y = 0, z = 0;
 
@@ -33,14 +34,15 @@ public class Vector {
         return new Vector(this.x - vector_2.x, this.y - vector_2.y, this.z - vector_2.z);
     }
 
-    public boolean equals(Vector vector_2){
-        if (vector_2 == this) return true;
-        if (vector_2 == null || getClass() != vector_2.getClass()) return false;
+    public boolean equals(Object obj){
+        if (obj == this) return true;
+        if (obj == null || getClass() != obj.getClass()) return false;
+        Vector vector_2 = (Vector) obj;
         return (this.x == vector_2.x && this.y == vector_2.y && this.z == vector_2.z);
     }
 
     @Override
     public int hashCode(){
-        return 0;
+        return (int) this.x * 31 + (int) this.y * 29 + (int)  this.z * 23;
     }
 }

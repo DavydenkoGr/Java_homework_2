@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6ecf08b-d736-4f8a-8f3f-7d8a52407d5e" name="Changes" comment="base func">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+    <list default="true" id="b6ecf08b-d736-4f8a-8f3f-7d8a52407d5e" name="Changes" comment="equals() and Main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Vector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Vector.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665608183405</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="equals() and Main">
+      <created>1665817392522</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665817392522</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +105,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="base func" />
-    <option name="LAST_COMMIT_MESSAGE" value="base func" />
+    <MESSAGE value="equals() and Main" />
+    <option name="LAST_COMMIT_MESSAGE" value="equals() and Main" />
   </component>
 </project>
